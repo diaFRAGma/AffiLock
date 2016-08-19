@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: AffiLock 1.0
+## Version: 1.0
+## Notes: Decides which skill the Affliction Warlock uses.
+## Notes-deDE: Entscheidet welche Fähigkeit des Gebrechens Hexenmeister genutzt wird.
+## Author: Ambro
+## Dependencies: IsBuffActive, MobInfo2
+AffiLock.lua
