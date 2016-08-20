@@ -6,7 +6,10 @@ function AffiLock()
 	if UnitName("target") ~= nil then
 		if not IsBuffActive("Dämonenrüstung") then
 			cast = "Dämonenrüstung"
-			manaNeed = 1150
+			manaNeed = 1150			
+		elseif UnitName("targettarget") == UnitName("player") and getCooldown("Todesmantel") == 0  then
+			cast = "Todesmantel"
+			manaNeed = 495
 		elseif not IsBuffActive("Lebensentzug", "target") then
 			cast = "Lebensentzug"
 			manaNeed = 285
@@ -33,7 +36,7 @@ function AffiLock()
 			manaNeed = 259
 		end
 	
-		-- todo todesmantel
+		-- TODO Schattenbrand
 
 		-- Aderlass wenn zu wennig Mana da ist um den nächsten Cast zu machen aber nur wenn man auch genug Leben hat.
 		if UnitHealth("player") > 330 and UnitMana("player") < manaNeed then

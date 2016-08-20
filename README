@@ -5,18 +5,18 @@ Im Spiel muss ein Makro angelegt werden mit folgendem Inhalt:
 Wenn das Makro durch betätigen des Knopfes ausgelöst wird, laufen folgende Entscheidungen ab:
 
 1. Wenn Dämonenrüstung auf dem Hexenmeister ausgelaufen ist wird diese erneuert.
-2. Das Pet greift das Ziel an.
-3. Wenn Lebensentzug nicht auf dem Target drauf ist wird es gesetzt.
-4. Wenn der Hexenmeister wenig Leben hat wird Blutsauger genutzt.
-5. Wenn das Pet des Hexers wenig Leben hat wird Lebenslinie genutzt.
-6. Bevor Fluch der Pein gesetzt wird wird Fluch verstärken aktiviert wenn es frei ist.
-7. Wenn Fluch der Pein nicht auf dem Target aktiv ist wird es gesetzt.
-8. Wenn Verderbnis nicht auf dem Target aktiv ist wird es gesetzt.
-9. Wenn Feuerbrand nicht auf dem Target aktiv ist wird es gesetzt.
-10. Wenn alle Dots sitzen wird Schattenblitz gecastet.
+2. Todesmantel wenn Ziel nicht auf Pet sondern auf Player aggro ist.
+3. Das Pet greift das Ziel an.
+4. Wenn Lebensentzug nicht auf dem Target drauf ist wird es gesetzt.
+5. Wenn der Hexenmeister wenig Leben hat wird Blutsauger genutzt.
+6. Wenn das Pet des Hexers wenig Leben hat wird Lebenslinie genutzt.
+7. Bevor Fluch der Pein gesetzt wird wird Fluch verstärken aktiviert wenn es frei ist.
+8. Wenn Fluch der Pein nicht auf dem Target aktiv ist wird es gesetzt.
+9. Wenn Verderbnis nicht auf dem Target aktiv ist wird es gesetzt.
+10. Wenn Feuerbrand nicht auf dem Target aktiv ist wird es gesetzt.
+11. Wenn alle Dots sitzen wird Schattenblitz gecastet.
 
 Zukünftige Features:
-1. Todesmantel wenn Ziel nicht auf Pet sondern auf Player aggro ist.
 2. Schattenbrand kurz vorm Tod des Mobs nutzen
 
 Abhängikeiten:
