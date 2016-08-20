@@ -4,11 +4,23 @@ Im Spiel muss ein Makro angelegt werden mit folgendem Inhalt:
 /run AffiLock()
 Wenn das Makro durch betätigen des Knopfes ausgelöst wird, laufen folgende Entscheidungen ab:
 
-1. 
+1. Wenn Dämonenrüstung auf dem Hexenmeister ausgelaufen ist wird diese erneuert.
+2. Das Pet greift das Ziel an.
+3. Wenn Lebensentzug nicht auf dem Target drauf ist wird es gesetzt.
+4. Wenn der Hexenmeister wenig Leben hat wird Blutsauger genutzt.
+5. Wenn das Pet des Hexers wenig Leben hat wird Lebenslinie genutzt.
+6. Bevor Fluch der Pein gesetzt wird wird Fluch verstärken aktiviert wenn es frei ist.
+7. Wenn Fluch der Pein nicht auf dem Target aktiv ist wird es gesetzt.
+8. Wenn Verderbnis nicht auf dem Target aktiv ist wird es gesetzt.
+9. Wenn Feuerbrand nicht auf dem Target aktiv ist wird es gesetzt.
+10. Wenn alle Dots sitzen wird Schattenblitz gecastet.
+
+Zukünftige Features:
+1. Todesmantel wenn Ziel nicht auf Pet sondern auf Player aggro ist.
+2. Schattenbrand kurz vorm Tod des Mobs nutzen
 
 Abhängikeiten:
 Das Addon IsBuffActive wird benötigt um festzustellen welche Dots auf dem Mob schon aktiv sind.
-Das Addon MobInfo2 wird benötigt um das restliche Leben des Gegners auszulesen.
 
 Nützliche Links:
 World of Warcraft 1.12.1 API

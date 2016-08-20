@@ -4,5 +4,5 @@
 ## Notes: Decides which skill the Affliction Warlock uses.
 ## Notes-deDE: Entscheidet welche Fähigkeit des Gebrechens Hexenmeister genutzt wird.
 ## Author: Ambro
-## Dependencies: IsBuffActive, MobInfo2
+## Dependencies: IsBuffActive
 AffiLock.lua
